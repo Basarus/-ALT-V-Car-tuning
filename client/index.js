@@ -176,18 +176,6 @@ function handleKeyup(key) {
     if (web == undefined) return;
 
     switch (key) {
-        case 38:
-            web.emit('switch_up')
-            break;
-        case 40:
-            web.emit('switch_down')
-            break;
-        case 37:
-            web.emit('switch_left')
-            break;
-        case 39:
-            web.emit('switch_right')
-            break;
         case 8:
             Close()
             break;
